@@ -1,38 +1,136 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ahoj{
+  display: inline-block;
+  margin: 5px;
+}
+.cau{
+  margin-top:0;
+}
+#login{
+  cursor: pointer;
+  margin-left: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  width:200px;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.article{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 20vh;
+  margin: 10px auto;
+  cursor: pointer;
+  width: 50%;
+  text-decoration: none;
+}
+
+
+.Home{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.read {
+  text-align: center;
+  margin-right: 200px
+}
+
+.input ul{
+  list-style: none;
+}
+
+.logIn{
+  max-width: 25%;
+  margin: 200px auto;
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+}
+
+.input{
+  position: relative;
+}
+.logBtn{
+position: absolute;;
+left: 16rem;
+padding: 10px;
+background-color: rgb(60, 60, 255);
+color: white;
+border-radius: 6px;
+border: none;
+}
+
+.admin{
+  background-color: white;
+  border: none;
+}
+.article{
+  text-decoration: none;
+  color: black;
+}
+
+.articleul h2{
+  text-decoration: none;
+}
+
+.input input{
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.profile{
+  border-radius: 50%;
+  width: 20px;
+  height:20px
+}
+
+.containerMain{
+  width: 100%;
+  height: 50vh;
+}
+
+.Article{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 100px;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.nostyle{
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about{
+  background-image: url(./img.jpg);
+  height: 100vh;
+}
+
+.commentInp{
+  width: 80%;
+  padding: 10px;
 }
