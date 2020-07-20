@@ -19,6 +19,7 @@ function Home(){
                         <h2>Dog Shat Himself</h2>
                         <span> Duc Nguyen </span>
                         <p> lorem ipsumDuis risus. 
+                        nteger lacinia. Integer <br/> imperdiet lectus quis justo.  Phasellus enim erat, vestibulum vel, aliquam. <br/>Praesent vitae arcu tempor neque lacinia pretium. Aenean placerat. <br/> Maecenas aliquet accumsan leo. Pellentesque ipsum. Aliquam id dolor.
  
                         </p>
                         <span></span>
@@ -30,7 +31,7 @@ function Home(){
             <Link to='/articles'>
             <div className='article'>
                 <div className='container'>
-                    <img src={img}/>
+                    <img src={img} alt='dog'/>
                 </div>
                 <div>
                     <ul className='articleul'>

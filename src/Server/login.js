@@ -13,5 +13,4 @@ function login(password, username){
     }
 }
 
-
 export default login;
